@@ -1,0 +1,19 @@
+# == Schema Information
+#
+# Table name: participants
+#
+#  id         :bigint           not null, primary key
+#  rebuy      :boolean          default(FALSE)
+#  player_id  :bigint           not null
+#  game_id    :bigint           not null
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  rebuy: false
+  player_id: one
+
+two:
+  rebuy: false
+  player_id: two
